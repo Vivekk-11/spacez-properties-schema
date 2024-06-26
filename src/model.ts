@@ -50,12 +50,24 @@ export const data = new GlobalData({
     contactWp: "+919380834941",
     contactMail: "hello@spacez.co",
     conciergeFaqs: [
-      "How long does it take to clear a pending reservation?",
-      "How long does it take to clear a pending reservation?",
+      {
+        question: "How long does it take to clear a pending reservation?",
+        answer: "Something something something!!!",
+      },
+      {
+        question: "How long does it take to clear a pending reservation?",
+        answer: "Something something something!!!",
+      },
     ],
     profileFaqs: [
-      "How long does it take to clear a pending reservation?",
-      "How long does it take to clear a pending reservation?",
+      {
+        question: "How long does it take to clear a pending reservation?",
+        answer: "Something something something!!!",
+      },
+      {
+        question: "How long does it take to clear a pending reservation?",
+        answer: "Something something something!!!",
+      },
     ],
   }),
   amenities: [

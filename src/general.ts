@@ -1,10 +1,15 @@
+type FAQ = {
+  question: string;
+  answer: string;
+};
+
 interface GeneralData {
   tcLink: string;
   contactCall: string;
   contactWp: string;
   contactMail: string;
-  conciergeFaqs: string[];
-  profileFaqs: string[];
+  conciergeFaqs: FAQ[];
+  profileFaqs: FAQ[];
 }
 
 export class General {
@@ -12,8 +17,8 @@ export class General {
   contactCall: string;
   contactWp: string;
   contactMail: string;
-  conciergeFaqs: string[];
-  profileFaqs: string[];
+  conciergeFaqs: FAQ[];
+  profileFaqs: FAQ[];
 
   constructor({
     tcLink,
